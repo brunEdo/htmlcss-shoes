@@ -61,3 +61,18 @@ nav a {
 .yellow {
     background-color: yellow;
 }
+
+/* content  */
+img {
+    width: 50vw;  
+}
+p {
+    font-size: 46px;
+    font-weight: 900;
+    color: yellow;
+    text-transform: uppercase;
+    text-align: center;
+}
+.yellow p {
+    color: green;
+}
