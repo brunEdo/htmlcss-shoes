@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* common  */
 .center {
     position: absolute;
@@ -15,6 +19,7 @@
 
 section {
     height: 100vh;
+    position: relative;
 }
 
 /* navigation  */
@@ -23,6 +28,7 @@ nav {
     top: 0%;
     width: 100%;
     text-align: right;
+    z-index: 4;
 }
 nav li, nav a {
     display: inline-block;    
