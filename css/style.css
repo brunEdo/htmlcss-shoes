@@ -10,6 +10,10 @@ html {
 }
 
 /* common  */
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
 .center {
     position: absolute;
     top: 50%;
@@ -41,6 +45,7 @@ nav a {
     font-size: 20px;
     text-align: center;
     line-height: 50px;
+    vertical-align: middle;
 
     height: 50px;
     width: 50px;
@@ -53,9 +58,11 @@ nav a {
 }
 nav a:hover, 
 nav a:focus {
+    line-height: 55px;
+    font-size: 24px;
     height: 55px;
     width: 55px;
-    font-size: 24px;
+    transition: 0.1s;
 }
 nav a:active {
     box-shadow: none;
