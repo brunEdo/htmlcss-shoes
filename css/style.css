@@ -58,11 +58,7 @@ nav a {
 }
 nav a:hover, 
 nav a:focus {
-    line-height: 55px;
-    font-size: 24px;
-    height: 55px;
-    width: 55px;
-    transition: 0.1s;
+    transform: scale(1.2);
 }
 nav a:active {
     box-shadow: none;
